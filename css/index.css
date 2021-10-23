@@ -1,0 +1,16 @@
+@import './wrapper.css';
+@import './card.css';
+:root {
+--white: hsl(0, 0%, 100%); 
+--black: #111111; 
+--blue: #00A2FF;
+--body1-regular: 400 1rem/1.5rem Poppins; 
+--body1-bold:  700 1rem/1.5rem Poppins;  
+}
+
+body {
+  color: var(--white);
+  background-color: var(--white);
+  font: var(--body1-regular);
+}
+
